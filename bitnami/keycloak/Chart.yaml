@@ -4,10 +4,6 @@ annotations:
 apiVersion: v2
 appVersion: 20.0.5
 dependencies:
-  - condition: postgresql.enabled
-    name: postgresql
-    repository: https://charts.bitnami.com/bitnami
-    version: 12.x.x
   - name: common
     repository: https://charts.bitnami.com/bitnami
     tags:
